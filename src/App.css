@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.title {
+  font-size: 3rem; /* Increased font size */
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  border: 2px solid #333; /* Border around the title */
+  padding: 10px; /* Add some padding */
+}
+
+.counter {
+  font-size: 2.5rem; /* Increased font size */
+  color: #007bff;
+  animation: pulse 1s infinite alternate;
+  border: 2px solid #007bff; /* Border around the counter */
+  padding: 10px; /* Add some padding */
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
